@@ -21,3 +21,7 @@ colorRightColumnIconBackground = "#65b873"
 pages = 1
 swapColumns = false
 footerNote = "2025 © by Simon Rolland--Delon   |   simon-rd.com"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
