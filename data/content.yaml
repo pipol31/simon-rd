@@ -74,11 +74,11 @@ Education:
 Project:
   - Course: "Notes personnelles"
     Details: Travaux personnels d'approfondissements sur des notions hors programme.
-    Link: /files/Carnet_de_Mathématique.pdf
+    Link: files/Carnet_de_Mathématique.pdf
   - Course: "Rapport de L1"
   - Course: "Rapport de L2"
     Details: Travail en groupe sur le principe du maximum.
-    Link: /files/Projet_S4__Copy_.pdf
+    Link: files/Projet_S4__Copy_.pdf
 
 Skills:
   - Family: Langage
