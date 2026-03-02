@@ -1,0 +1,24 @@
+.project {
+    &__item {
+        margin-bottom: 1rem;
+        @include avoid-break;
+    }
+
+    &__title {
+        font-size: 1.2rem;
+        color: $color-dark;
+        margin-bottom: 0.25rem;
+    }
+
+    &__place,
+    &__date {
+        color: $color-secondary;
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+    }
+
+    &__description {
+        color: $color-dark;
+        margin-top: 0.25rem;
+    }
+}

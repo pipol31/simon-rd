@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-fr'
+title = 'Simon RD'
+theme = 'almeida-cv'
+defaultContentLanguage = "fr"
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#65b873"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#65b873"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#65b873"
+pages = 1
+swapColumns = false
+footerNote = "2025 © by Simon Rolland--Delon   |   simon-rd.com"

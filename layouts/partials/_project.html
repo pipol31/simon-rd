@@ -1,0 +1,24 @@
+{{ if .Project }}
+<div id="project" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            {{ i18n "project" }}
+        </h2>
+    </div>
+    <div class="section__content">
+        {{ range .Project }}
+            <div class="project__item">
+                <h3 class="project__title">{{ .Course | safeHTML }}</h3>
+                <h4 class="project__place">{{ .Place | safeHTML }}</h4>
+                <h4 class="project__date">{{ .Date | safeHTML }}</h4>
+                <div class="project__description">{{ .Details | safeHTML }}</div>
+                {{ with .Link }}
+                    <div class="project__link">
+                        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ path.Base . }}</a>
+                    </div>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
