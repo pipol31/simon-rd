@@ -1,0 +1,13 @@
+{{ if .Site.IsMultiLingual }}
+<nav aria-label="Language switcher" class="language-switcher">
+  <ul>
+    {{ range .Site.Languages }}
+      {{ if eq . $.Site.Language }}
+        <li class="language-switcher__current"><span aria-label="{{ i18n "ariaLanguage" }} {{ .LanguageName }}">{{ .LanguageName }}</span></li>
+      {{ else }}
+        <li class="language-switcher__item"><a href="{{ .Lang | relLangURL }}" aria-label="{{ i18n "ariaTranslation" }} {{ .LanguageName }}">{{ .LanguageName }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

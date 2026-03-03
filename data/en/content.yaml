@@ -1,0 +1,113 @@
+BasicInfo:
+  FirstName: Simon
+  LastName: Rolland--Delon
+  Photo: img/simon_toulouse_ana.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +33 07 69 25 40 01
+    - Icon: fas fa-envelope
+      Info: simon.roldel@gmail.com
+    #- Icon: fas fa-globe
+    #  Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
+    - Icon: fas fa-map-marker-alt
+      Info: France
+
+Profile: "Student of Mathematics (L3) at the University of Toulouse as part of the <strong>Special Mathematics Program</strong>. I have been passionate about mathematics for several years, and my thirst for knowledge has only grown: I have become increasingly independent in my study of the subject and do not limit myself to lectures — for example, my ongoing participation in the Math Olympiad course throughout my degree."
+
+Experience:
+  - Employer: IMJ-PRG
+    Place: Paris
+    Positions:
+      - Title: Graduation internship
+        Date: March 2026 - May 2026
+        Details:
+          - Second-semester internship at the Institut de Mathématiques de Jussieu-Paris Rive Gauche as part of the PS Mathematics program, in the Mathematical Logic research group
+        Badges: ["Logique", "Algèbre"]
+
+  - Employer: Université de Toulouse
+    Place: Toulouse
+    Positions:
+      - Title: Teaching unit Mathematics Olympiad
+        Date: 2023 - 2026
+        Details:
+          - Participation in the Math Olympiad course during the three years of the Bachelor's degree, preparing for participation in the IMC (International Mathematics Competition for University Students)
+        Badges: ["Arithmetic", "Algebra"]
+
+Education:
+  - Course: (L3) Licence Mathématiques (PS Maths)
+    Place: University of Toulouse
+    Date: 2025-2026
+    Details: Special Mathematics program
+  - Course: (L2) Licence Mathématiques (PS Maths)
+    Place: University of Toulouse
+    Date: 2024-2025
+    Details: Special Mathematics program
+  - Course: (L1) Licence Mathématiques (PS Maths)
+    Place: University of Toulouse
+    Date: 2023-2024
+    Details: Special Mathematics program
+  - Course: Baccalauréat Mention Bien
+    Place: Lycée Général Saint-Sernin
+    Date: 2022-2023
+    Details: Mathematics / Physics / Chemistry / Life Sciences — Math Expert option
+
+#References:
+#  - Name: Person One
+#    Relation: Co-worker at Super Cool Company
+#    Contacts:
+#      - Icon: fas fa-phone
+#        Info: +44 123 456 790
+#      - Icon: fas fa-envelope
+#        Info: contact@person-one.com
+#      - Icon: fas fa-map-marker-alt
+#        Info: Melbourne, Australia
+#  - Name: Person Two
+#    Relation: Boss at Super Cool Company
+#    Contacts:
+#      - Icon: fas fa-phone
+#        Info: +44 123 456 791
+#      - Icon: fas fa-envelope
+#        Info: contact@person-two.com
+#      - Icon: fas fa-map-marker-alt
+#        Info: Sydney, Australia
+
+Project:
+  - Course: "Independent studies"
+    Details: Personal study notes expanding on topics outside the curriculum.
+    Link: files/Carnet_de_Mathématique.pdf
+  - Course: "L1 Report"
+  - Course: "L2 Report"
+    Details: Group work on the maximum principle.
+    Link: files/Projet_S4__Copy_.pdf
+
+Skills:
+  - Family: Langage
+    Items:
+      - Python
+      - LaTeX
+  - Family: Système d'exploitattion
+    Items:
+      - Environnements Windows
+      - Linux
+      - Raspberry
+  - Family: Developer Tools
+    Items:
+      - Jupyter Notebook
+
+Languages:
+  - Name: Francais
+    Level: Native
+  - Name: English
+    Level: B2-C1
+  - Name: Spanish
+    Level: A2
+
+Diplomas:
+  - Bachelor's in PS Maths (2026)
+  - Baccalaureate (Honours) (2023)
+
+Interests:
+  - Astronomy
+  - Astrophotography
+  - Drawing
+  - Mathematics
