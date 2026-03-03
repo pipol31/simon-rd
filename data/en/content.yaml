@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: France
 
-Profile: "Student of Mathematics (L3) at the University of Toulouse as part of the <strong>Special Mathematics Program</strong>. I have been passionate about mathematics for several years, and my thirst for knowledge has only grown: I have become increasingly independent in my study of the subject and do not limit myself to lectures — for example, my ongoing participation in the Math Olympiad course throughout my degree."
+Profile: "Student of Mathematics (L3) at the University of Toulouse as part of the <a href=\"https://departement-math.univ-tlse3.fr/licence-parcours-special-mathematiques-ps-maths\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Parcours Spécial en Mathématiques</strong></a>. I have been passionate about mathematics for several years, and my thirst for knowledge has only grown: I have become increasingly independent in my study of the subject and do not limit myself to lectures — for example, my ongoing participation in the Math Olympiad course throughout my degree."
 
 Experience:
   - Employer: IMJ-PRG
