@@ -3,8 +3,8 @@
   <label for="language-select" class="sr-only">{{ i18n "ariaLanguage" }}</label>
   <select id="language-select" aria-label="{{ i18n "ariaLanguage" }}" onchange="if(this.value) window.location.href=this.value">
     {{ range .Site.Languages }}
-      {{ $langRoot := printf "/%s/" .Lang }}
-      <option value="{{ $langRoot }}" {{ if eq . $.Site.Language }}selected{{ end }}>{{ .LanguageName }}</option>
+      {{ $abs := printf "%s%s/" $.Site.BaseURL .Lang }}
+      <option value="{{ $abs }}" {{ if eq . $.Site.Language }}selected{{ end }}>{{ .LanguageName }}</option>
     {{ end }}
   </select>
 </nav>
