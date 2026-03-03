@@ -1,4 +1,4 @@
-{{ if .hugo.IsMultiLingual }}
+{{ if .Site.IsMultiLingual }}
 <nav aria-label="{{ i18n "ariaLanguage" }}" class="language-switcher">
   <label for="language-select" class="sr-only">{{ i18n "ariaLanguage" }}</label>
   <select id="language-select" aria-label="{{ i18n "ariaLanguage" }}" onchange="if(this.value) window.location.href=this.value">
