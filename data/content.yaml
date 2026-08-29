@@ -6,7 +6,7 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +33 07 69 25 40 01
     - Icon: fas fa-envelope
-      Info: simon.roldel@gmail.com
+      Info: simon.roldel (at) gmail (point) com
     #- Icon: fas fa-globe
     #  Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
     - Icon: fas fa-map-marker-alt
@@ -34,6 +34,9 @@ Experience:
         Badges: ["Arithmétique", "Algèbre"]
 
 Education:
+  - Course: Ecole Normale Supérieure
+    Place: 45 rue d'Ulm
+    Date: 2026-2027
   - Course: (L3) Licence Mathématiques (PS Maths)
     Place: Université de Toulouse
     Date: 2025-2026

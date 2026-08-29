@@ -9,3 +9,68 @@
   </select>
 </nav>
 {{ end }}
+<!--{{ if hugo.IsMultilingual }}
+<nav class="language-switcher" aria-label="{{ i18n "ariaLanguage" }}">
+  <div class="language-switcher__widget" data-js="lang-switcher">
+    <button type="button" class="language-switcher__button" aria-haspopup="listbox" aria-expanded="false" data-js="toggle">
+      <span class="language-switcher__flag" aria-hidden="true">{{/* current flag inserted by JS */}}</span>
+      <span class="sr-only">{{ i18n "ariaLanguage" }}</span>
+    </button>
+    <ul class="language-switcher__list" role="listbox" tabindex="-1" aria-labelledby="language-switcher" data-js="list" hidden>
+      {{ range .Site.Languages }}
+        {{ $abs := printf "%s%s/" $.Site.BaseURL .Lang }}
+        <li role="option" class="language-switcher__item" data-url="{{ $abs }}" data-lang="{{ .Lang }}" data-name="{{ .LanguageName }}">
+          {{ if eq .Lang "fr" }}
+            <span class="language-switcher__flag" aria-hidden="true"> 
+              <svg width="20" height="14" viewBox="0 0 3 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="2" x="0" fill="#0055A4"/><rect width="1" height="2" x="1" fill="#FFFFFF"/><rect width="1" height="2" x="2" fill="#EF4135"/></svg>
+            </span>
+          {{ else if eq .Lang "en" }}
+            <span class="language-switcher__flag" aria-hidden="true">
+              <svg width="20" height="14" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg"><clipPath id="t"><path d="M0 0v30h60V0z"/></clipPath><path fill="#012169" d="M0 0v30h60V0z"/><path fill="#FFF" d="M0 0l60 30M60 0L0 30" stroke="#FFF" stroke-width="6"/><path fill="#C8102E" d="M0 0l60 30M60 0L0 30" stroke="#C8102E" stroke-width="4"/><path fill="#FFF" d="M30 0v30M0 15h60" stroke="#FFF" stroke-width="10"/><path fill="#C8102E" d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg>
+            </span>
+          {{ else }}
+            <span class="language-switcher__flag" aria-hidden="true">{{ .LanguageName }}</span>
+          {{ end }}
+          <span class="sr-only">{{ .LanguageName }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
+
+<script>
+// Minimal accessible behaviour for the language switcher
+(function(){
+  var widget = document.querySelector('[data-js="lang-switcher"]');
+  if(!widget) return;
+  var btn = widget.querySelector('[data-js="toggle"]');
+  var list = widget.querySelector('[data-js="list"]');
+  var items = widget.querySelectorAll('.language-switcher__item');
+
+  function close(){ btn.setAttribute('aria-expanded','false'); list.hidden = true; }
+  function open(){ btn.setAttribute('aria-expanded','true'); list.hidden = false; list.focus(); }
+
+  btn.addEventListener('click', function(e){
+    if(list.hidden) open(); else close();
+  });
+
+  items.forEach(function(it){
+    it.addEventListener('click', function(){
+      var url = this.getAttribute('data-url');
+      if(url) window.location.href = url;
+    });
+  });
+
+  // set initial flag in button
+  var current = widget.querySelector('.language-switcher__item[data-lang="' + document.documentElement.lang.split('-')[0] + '"]');
+  if(!current) current = widget.querySelector('.language-switcher__item[aria-selected]') || widget.querySelector('.language-switcher__item');
+  if(current){
+    var flag = current.querySelector('.language-switcher__flag');
+    var btnFlag = btn.querySelector('.language-switcher__flag');
+    if(flag && btnFlag){ btnFlag.innerHTML = flag.innerHTML; }
+  }
+  // close on outside click
+  document.addEventListener('click', function(e){ if(!widget.contains(e.target)) close(); });
+})();
+</script>
+{{ end }}-->

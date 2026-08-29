@@ -29,7 +29,7 @@ colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#65b873"
 pages = 1
 swapColumns = false
-footerNote = "2025 © by Simon Rolland--Delon   |   simon-rd.com"
+footerNote = "2026 © by Simon Rolland--Delon   |   simon-rd.com"
 
 [caches]
   [caches.images]

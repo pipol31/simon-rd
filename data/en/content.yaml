@@ -6,13 +6,13 @@ BasicInfo:
     - Icon: fas fa-phone
       Info: +33 07 69 25 40 01
     - Icon: fas fa-envelope
-      Info: simon.roldel@gmail.com
+      Info: simon.roldel (at) gmail (dot) com
     #- Icon: fas fa-globe
     #  Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
     - Icon: fas fa-map-marker-alt
       Info: France
 
-Profile: "Student of Mathematics (L3) at the University of Toulouse as part of the <a href=\"https://departement-math.univ-tlse3.fr/licence-parcours-special-mathematiques-ps-maths\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Parcours Spécial en Mathématiques</strong></a>. I have been passionate about mathematics for several years, and my thirst for knowledge has only grown: I have become increasingly independent in my study of the subject and do not limit myself to lectures — for example, my ongoing participation in the Math Olympiad course throughout my degree."
+Profile: 'Student of Mathematics (L3) at the University of Toulouse as part of the <a href="https://departement-math.univ-tlse3.fr/licence-parcours-special-mathematiques-ps-maths" target="_blank" rel="noopener noreferrer"><strong>Parcours Spécial en Mathématiques</strong></a>. I have been passionate about mathematics for several years, and my thirst for knowledge has only grown: I have become increasingly independent in my study of the subject and do not limit myself to lectures — for example, my ongoing participation in the Math Olympiad course throughout my degree.'
 
 Experience:
   - Employer: IMJ-PRG
@@ -22,18 +22,21 @@ Experience:
         Date: March 2026 - May 2026
         Details:
           - Second-semester internship at the Institut de Mathématiques de Jussieu-Paris Rive Gauche as part of the PS Mathematics program, in the Mathematical Logic research group
-        Badges: ["Logique", "Algèbre"]
+        Badges: ["Logic", "Algebra"]
 
   - Employer: Université de Toulouse
     Place: Toulouse
     Positions:
-      - Title: Teaching unit Mathematics Olympiad
+      - Title: "Teaching unit: Mathematics Olympiad"
         Date: 2023 - 2026
         Details:
           - Participation in the Math Olympiad course during the three years of the Bachelor's degree, preparing for participation in the IMC (International Mathematics Competition for University Students)
         Badges: ["Arithmetic", "Algebra"]
 
 Education:
+  - Course: Ecole Normale Supérieure
+    Place: 45 rue d'Ulm
+    Date: 2026-2027
   - Course: (L3) Licence Mathématiques (PS Maths)
     Place: University of Toulouse
     Date: 2025-2026
@@ -103,7 +106,7 @@ Languages:
     Level: A2
 
 Diplomas:
-  - Bachelor's in PS Maths (2026)
+  - Bachelor of Mathematics in PS Maths (2026)
   - Baccalaureate (Honours) (2023)
 
 Interests:
